@@ -9,6 +9,7 @@ from pymongo.server_api import ServerApi
 from config.database import MONGO_URI
 from flask_socketio import SocketIO, join_room, emit, disconnect
 from flask import Flask, request
+
 # Create Flask application
 app = Flask(__name__)
 socketio = SocketIO(app)
